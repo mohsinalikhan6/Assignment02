@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: row wrap;
+    background-color: rgba(176, 167, 255 , 0.5);
+}
+
+.navbarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(176, 167, 255 , 0.5);
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.fa-solid , .fa-brands{
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    color: #072757;
+}
+
+.top{
+    position: relative;
+    top: 0px;
+    background-color: rgba(69, 108, 165, .9);;
+
+}
+.middle{
+    position: relative;
+    top: 50px;
+
+}
+.end{
+    position: relative;
+    top: 100px;
+    background-color: rgba(176, 167, 255 , 0.5);
+
+}
+
+.picContainer div img{
+    width: 40em;
+    height: 41em;
+}
+
+.name{
+    position: absolute;
+    bottom: 180px;
+    left: 230px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(176, 167, 255 , 0.5);
+    width: 25%;
+    border-radius: 15px;
+}
+.name h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #072757;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.detailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    top: 33px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h4 , h2{
+    color: #072757;
+    font-weight: bold;
+}
